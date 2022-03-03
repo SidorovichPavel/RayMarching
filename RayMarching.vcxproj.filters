@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb4d09c3-f2bb-4cbc-93e7-784ecf43a43a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="src\kernel.cu">
+      <Filter>src</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\glsl\shader.vert" />
+    <None Include="res\glsl\shader.frag" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\glsl_math.cuh" />
+  </ItemGroup>
+</Project>
